@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/box-maker/static/js/main.d2b13475.chunk.js",
+    "main.js.map": "/box-maker/static/js/main.d2b13475.chunk.js.map",
+    "runtime-main.js": "/box-maker/static/js/runtime-main.355f4199.js",
+    "runtime-main.js.map": "/box-maker/static/js/runtime-main.355f4199.js.map",
+    "static/js/2.b83eab7d.chunk.js": "/box-maker/static/js/2.b83eab7d.chunk.js",
+    "static/js/2.b83eab7d.chunk.js.map": "/box-maker/static/js/2.b83eab7d.chunk.js.map",
+    "index.html": "/box-maker/index.html",
+    "static/js/2.b83eab7d.chunk.js.LICENSE.txt": "/box-maker/static/js/2.b83eab7d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.355f4199.js",
+    "static/js/2.b83eab7d.chunk.js",
+    "static/js/main.d2b13475.chunk.js"
+  ]
+}
