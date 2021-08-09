@@ -24,9 +24,6 @@ const Icon = styled.i`
 `
 
 export default function Box({ height, width, backgroundColor, id, removeBox }) {
-  const handleClick = e => {
-    removeBox(e.target.id)
-  }
   return (
     <BoxContainer>
       <BoxWrapper
@@ -34,7 +31,7 @@ export default function Box({ height, width, backgroundColor, id, removeBox }) {
         width={width}
         backgroundColor={backgroundColor}
       ></BoxWrapper>
-      <Icon className='far fa-trash-alt' onClick={handleClick} id={id}></Icon>
+      <Icon className='far fa-trash-alt' onClick={removeBox} id={id}></Icon>
     </BoxContainer>
   )
 }

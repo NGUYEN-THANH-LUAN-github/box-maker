@@ -33,7 +33,7 @@ export default function BoxList() {
       backgroundColor={box.backgroundColor}
       key={box.id}
       id={box.id}
-      removeBox={removeBox}
+      removeBox={() => removeBox(box.id)}
     />
   ))
 

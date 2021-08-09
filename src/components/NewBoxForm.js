@@ -69,6 +69,7 @@ export default function NewBoxForm({ addBox }) {
 
   return (
     <NewBoxFormWrapper onSubmit={handleSubmit}>
+      <h1>Color Box Maker</h1>
       <InputGroup>
         <Label htmlFor='background-color'>Background Color</Label>
         <Input
