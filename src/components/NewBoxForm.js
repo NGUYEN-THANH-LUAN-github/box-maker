@@ -44,7 +44,16 @@ export default function NewBoxForm({ addBox }) {
 
   const handleSubmit = e => {
     e.preventDefault()
+    if (
+      !properties.height ||
+      !properties.width ||
+      !properties.backgroundColor
+    ) {
+      alert('Error: please fill in all the properties')
+      return
+    }
     addBox(properties)
+    setProperties({ backgroundColor: '', height: '', width: '' })
   }
 
   const handleClick = e => {
@@ -54,7 +63,7 @@ export default function NewBoxForm({ addBox }) {
       height: getRandomDimension(),
       width: getRandomDimension(),
     }
-    setProperties(randomBox)
+    // setProperties(randomBox)
     addBox(randomBox)
   }
 
